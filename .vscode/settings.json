@@ -1,0 +1,21 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.guides.bracketPairs": "active",
+    "editor.inlineSuggest.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [79],
+    "files.exclude": {
+        "**/.git": false,
+        ".devcontainer": true,
+        ".gitignore": true,
+        ".vscode": true,
+        ".git": true
+    },
+    "files.insertFinalNewline": true,
+    "git.pullTags": false,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 16
+}

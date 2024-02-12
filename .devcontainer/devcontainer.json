@@ -1,0 +1,16 @@
+{
+  "name": "WORCK DH Winter School 2024",
+
+  // Configure tool-specific properties.
+  "customizations": {
+    // Configure properties specific to VS Code.
+    "vscode": {
+      // Add the IDs of extensions you want installed when the container is created.
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "zhuangtongfa.material-theme"
+      ]
+    }
+  }
+}
