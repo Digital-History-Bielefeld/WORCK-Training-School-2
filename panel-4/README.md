@@ -34,9 +34,13 @@ print(text_1_encrypted)
 
 text_1_decrypted = ""
 for character in text_1_encrypted:
+    # Convert the current character to it's unicode value
     character_as_number = ord(character)
+    # Substract one from the number, the result is the previous character (as a number) in Unicode alphabet
     decrypted_character_as_number = character_as_number - 1
+    # Convert the new number back to a character (this is now decrypted)
     decrypted_character = chr(decrypted_character_as_number)
+    # Add the decrypted character to our decrypted string
     text_1_decrypted = text_1_decrypted + decrypted_character
 
 print("The decrypted text")
