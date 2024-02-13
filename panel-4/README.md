@@ -20,9 +20,13 @@ print(text_1)
 
 text_1_encrypted = ""
 for character in text_1:
+    # Convert the current character to it's unicode value
     character_as_number = ord(character)
+    # Add one to the number, the result is the next character (as a number) in Unicode alphabet
     encrypted_character_as_number = character_as_number + 1
+    # Convert the new number back to a character (this is now encrypted)
     encrypted_character = chr(encrypted_character_as_number)
+    # Add the encrypted character to our encrypted string
     text_1_encrypted = text_1_encrypted + encrypted_character
 
 print("The encrypted text")
@@ -30,9 +34,13 @@ print(text_1_encrypted)
 
 text_1_decrypted = ""
 for character in text_1_encrypted:
+    # Convert the current character to it's unicode value
     character_as_number = ord(character)
+    # Substract one from the number, the result is the previous character (as a number) in Unicode alphabet
     decrypted_character_as_number = character_as_number - 1
+    # Convert the new number back to a character (this is now decrypted)
     decrypted_character = chr(decrypted_character_as_number)
+    # Add the decrypted character to our decrypted string
     text_1_decrypted = text_1_decrypted + decrypted_character
 
 print("The decrypted text")
