@@ -1,0 +1,7 @@
+flair==0.13.1
+matplotlib==3.8.2
+pandas==2.1.4
+spacy==3.7.2
+nltk==3.8.1
+notebook==7.0.6
+scikit-learn==1.3.2
