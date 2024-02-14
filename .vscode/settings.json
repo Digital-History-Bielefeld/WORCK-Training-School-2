@@ -8,9 +8,7 @@
     "editor.rulers": [79],
     "files.exclude": {
         "**/.git": false,
-        ".devcontainer": true,
         ".gitignore": true,
-        ".vscode": true,
         ".git": true
     },
     "files.insertFinalNewline": true,
