@@ -55,3 +55,4 @@ Follow the instructions below to open your codespace and dive into a hassle-free
     - https://www.youtube.com/@python-programming
     - https://programminghistorian.org
 - Resource for Data Management - Tools and Resources: https://rdmkit.elixir-europe.org/all_tools_and_resources.html
+  - Maybe also interesting: https://about.coscine.de/
