@@ -51,4 +51,6 @@ Follow the instructions below to open your codespace and dive into a hassle-free
     - https://docs.github.com/en/codespaces
     - https://git-scm.com/
 - Visual Studio Code: https://code.visualstudio.com/
-- Some more Python input for historians: https://www.youtube.com/@python-programming
+- Some more Python input for historians: 
+    - https://www.youtube.com/@python-programming
+    - https://programminghistorian.org 
